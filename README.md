@@ -9,3 +9,7 @@ conda create -n audio_processing_gpu python=3.10  # Or your Python version
 conda activate audio_processing_gpu
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 conda env update -f environment_gpu.yml
+
+# Linux notes
+sudo apt install ffmpeg
+and conda env create -f environment_linux.yml

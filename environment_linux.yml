@@ -1,0 +1,13 @@
+name: audio_processing_minimal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10 
+  - nltk=3.9.1
+  - pydub=0.25.1
+  - ipykernel
+  - pip
+  - pip:
+    - tiktoken==0.8.0
+    - openai-whisper==20240930
